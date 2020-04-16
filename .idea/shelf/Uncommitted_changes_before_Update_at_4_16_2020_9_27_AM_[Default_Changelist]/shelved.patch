@@ -1,0 +1,54 @@
+Index: ClimbInfo/src/ClimbingClub.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.ArrayList;\r\nimport java.util.List;\r\n\r\n/*\r\n    Part VII Answer: No\r\n    Part VIII Answer: Yes\r\n */\r\n\r\npublic class ClimbingClub {\r\n    private List<ClimbInfo> climbList;\r\n\r\n    public static void main(String[] args) {\r\n        ClimbingClub hikerClub = new ClimbingClub();\r\n        hikerClub.addClimb(\"Monadnock\", 274);\r\n        hikerClub.addClimb(\"Whiteface\", 301);\r\n        hikerClub.addClimb(\"Algonquin\", 225);\r\n        hikerClub.addClimb(\"Monadnock\", 344);\r\n    }\r\n\r\n    public ClimbingClub() {\r\n        climbList = new ArrayList<ClimbInfo>();\r\n    }\r\n\r\n    public void addClimb(String peakName, int climbTime) {\r\n        String name;\r\n\r\n        for (int i = 0; i < climbList.size(); i++) {\r\n            name = climbList.get(i).getName();\r\n\r\n            if (peakName.compareTo(name) <= 0) { // Check we are in right position to insert\r\n                climbList.add(i, new ClimbInfo(peakName, climbTime));\r\n                break;\r\n            }\r\n        }\r\n    }\r\n\r\n    public int distinctPeakNames() {\r\n        /* implementation shown in part (c) */\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ClimbInfo/src/ClimbingClub.java	(revision c42eb7ffc27f2a36bab247019c038b7e56710813)
++++ ClimbInfo/src/ClimbingClub.java	(date 1587005832573)
+@@ -25,7 +25,7 @@
+         String name;
+ 
+         for (int i = 0; i < climbList.size(); i++) {
+-            name = climbList.get(i).getName();
++            name = climbList.get(i).getName(); w dw wd da tfwfafA fw  w
+ 
+             if (peakName.compareTo(name) <= 0) { // Check we are in right position to insert
+                 climbList.add(i, new ClimbInfo(peakName, climbTime));
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml\" filepath=\"$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/AP-Review.iml\" filepath=\"$PROJECT_DIR$/AP-Review.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml\" filepath=\"$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/SparseArray/SparseArray.iml\" filepath=\"$PROJECT_DIR$/SparseArray/SparseArray.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml\" filepath=\"$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/sandbox/sandbox.iml\" filepath=\"$PROJECT_DIR$/sandbox/sandbox.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision c42eb7ffc27f2a36bab247019c038b7e56710813)
++++ .idea/modules.xml	(date 1587043004820)
+@@ -5,6 +5,7 @@
+       <module fileurl="file://$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" filepath="$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" />
+       <module fileurl="file://$PROJECT_DIR$/AP-Review.iml" filepath="$PROJECT_DIR$/AP-Review.iml" />
+       <module fileurl="file://$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" filepath="$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" />
++      <module fileurl="file://$PROJECT_DIR$/SkyView/SkyView.iml" filepath="$PROJECT_DIR$/SkyView/SkyView.iml" />
+       <module fileurl="file://$PROJECT_DIR$/SparseArray/SparseArray.iml" filepath="$PROJECT_DIR$/SparseArray/SparseArray.iml" />
+       <module fileurl="file://$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" filepath="$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" />
+       <module fileurl="file://$PROJECT_DIR$/sandbox/sandbox.iml" filepath="$PROJECT_DIR$/sandbox/sandbox.iml" />
+Index: SkyView/src/SkyView.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SkyView/src/SkyView.java	(date 1587043464098)
++++ SkyView/src/SkyView.java	(date 1587043464098)
+@@ -0,0 +1,11 @@
++public class SkyView {
++    private double[][] view;
++
++    public SkyView(int numRows, int numCols, double[] scanned) {
++        view = new double[numRows][numCols];
++    }
++
++    public double getAverage(int startRow, int endRow, int startCol, int endCol) {
++
++    }
++}
