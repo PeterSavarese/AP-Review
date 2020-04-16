@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" filepath="$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AP-Review.iml" filepath="$PROJECT_DIR$/AP-Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" filepath="$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SparseArray/SparseArray.iml" filepath="$PROJECT_DIR$/SparseArray/SparseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" filepath="$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sandbox/sandbox.iml" filepath="$PROJECT_DIR$/sandbox/sandbox.iml" />
+    </modules>
+  </component>
+</project>
