@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" filepath="$PROJECT_DIR$/2b--Vocab/2b--Vocab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vocab/2b--Vocab.iml" filepath="$PROJECT_DIR$/Vocab/2b--Vocab.iml" />
       <module fileurl="file://$PROJECT_DIR$/AP-Review.iml" filepath="$PROJECT_DIR$/AP-Review.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" filepath="$PROJECT_DIR$/ClimbInfo/ClimbInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CookieOrders/CookieOrders.iml" filepath="$PROJECT_DIR$/CookieOrders/CookieOrders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrogSimulation/FrogSimulation.iml" filepath="$PROJECT_DIR$/FrogSimulation/FrogSimulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FuelDepot/FuelDepot.iml" filepath="$PROJECT_DIR$/FuelDepot/FuelDepot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hailstone/Hailstone.iml" filepath="$PROJECT_DIR$/Hailstone/Hailstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Horse/Horse.iml" filepath="$PROJECT_DIR$/Horse/Horse.iml" />
       <module fileurl="file://$PROJECT_DIR$/HotelReservation/HotelReservation.iml" filepath="$PROJECT_DIR$/HotelReservation/HotelReservation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Logger/Logger.iml" filepath="$PROJECT_DIR$/Logger/Logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/Palindrome/Palindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparseArray/SparseArray.iml" filepath="$PROJECT_DIR$/SparseArray/SparseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringFormat/StringFormat.iml" filepath="$PROJECT_DIR$/StringFormat/StringFormat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingScore/TestingScore.iml" filepath="$PROJECT_DIR$/TestingScore/TestingScore.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" filepath="$PROJECT_DIR$/WhiteBlackImage/WhiteBlackImage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sandbox/sandbox.iml" filepath="$PROJECT_DIR$/sandbox/sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/__sandbox/sandbox.iml" filepath="$PROJECT_DIR$/__sandbox/sandbox.iml" />
     </modules>
   </component>
 </project>

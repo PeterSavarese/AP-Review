@@ -28,16 +28,15 @@ public class Hotel {
             // Something happened and the reservation instance is wrong or we were previously removed and never updated.
             return null;
         }
+
         if (!waitList.isEmpty()) {
             // The next person in the queue for a room gets this person's room #.
             rooms[iRoomNum] = new Reservation ((String)waitList.get(0), iRoomNum);
             waitList.remove(0);
-
-            return res;
         } else {
             rooms[iRoomNum] = null;
-
-            return res;
         }
+
+        return res;
     }
 }
